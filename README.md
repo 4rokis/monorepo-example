@@ -11,6 +11,7 @@
 - apps
     - web
     - docs
+    - store
 - packages
     - components
 
