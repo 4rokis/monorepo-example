@@ -1,4 +1,4 @@
-## Monorepo example 
+# Monorepo example 
 
 #### Getting started
 1. `npm i`
@@ -388,3 +388,17 @@ module.exports = {
   ...require("eslint-config-custom/prettier.js"),
 };
 ```
+
+## Kudos
+Architecture, Code and Configs come from [Style Space](https://wwwh.stylespace.com?utm_medium=arokis-blog) 
+
+> Connect with expert stylists, over 1-on-1 video styling sessions for clothing, hair and makeup/skincare styling. Elevate your style, simplify getting ready and save time and money.
+
+
+
+## Links
+* https://vercel.com/docs/concepts/monorepos
+* https://turbo.build/repo
+* https://nextjs.org/docs/advanced-features/multi-zones#how-to-merge-zones
+* https://vercel.com/blog/monorepos
+
