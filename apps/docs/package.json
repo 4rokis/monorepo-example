@@ -1,23 +1,24 @@
 {
-  "name": "@shared/components",
+  "name": "docs",
   "version": "1.0.0",
-  "description": "`",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "prettier": "prettier",
-    "lint:fix": "npm run lint--fix",
+    "lint:fix": "npm run lint --fix",
     "lint": "eslint --ext .ts,.tsx,.js,.jsx .",
-    "tsc": "tsc",
-    "build": "tsc",
-    "build:watch": "tsc --watch",
-    "storybook": "start-storybook -p 6006 -s ./public",
-    "storybook:build": "build-storybook -s ./public"
+    "dev": "next dev -p 3001",
+    "start": "next start -p 3001",
+    "build": "next build",
+    "tsc": "tsc"
   },
   "author": "Bogdan Sikora <bogdan@arokis.me>",
   "devDependencies": {
+    "@shared/components": "*",
     "@shared/tsconfig": "*",
     "eslint-config-custom": "*"
   },
   "dependencies": {
+    "@shared/components": "*"
   }
 }
