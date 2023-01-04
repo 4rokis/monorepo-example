@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Next.js",
+  "extends": "@shared/tsconfig/base.json",
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "keyofStringsOnly": true,
+    "noEmit": true,
+    "target": "es6",
+    "jsx": "preserve",
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "next-endv.d.ts"
+  ],
+  "exclude": [
+    "./node_modules/*"
+  ]
+}

@@ -1,0 +1,26 @@
+.next
+node_modules
+.DS_Store
+
+# Generated log files
+*.log
+.now
+.vercel
+.env
+.env.local
+.env.run
+.idea
+storybook-static
+dist
+out
+.npmrc
+
+# build generated
+sitemap.xml
+tsconfig.tsbuildinfo
+
+# Sentry
+.sentryclirc
+
+#Turbo
+.turbo 

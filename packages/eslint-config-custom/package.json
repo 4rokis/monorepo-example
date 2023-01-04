@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-custom",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "7.14.0",
+    "@next/eslint-plugin-next": "12.1.0",
+    "eslint-config-prettier": "6.15.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.21.5",
+    "prettier": "2.2.1",
+    "@typescript-eslint/eslint-plugin": "5.27.1",
+    "@typescript-eslint/parser": "5.27.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "files": [
+    "prettier.json",
+    "index"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

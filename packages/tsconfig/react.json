@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "React",
+  "extends": "@shared/tsconfig/base.json",
+  "compilerOptions": {
+    "declaration": true,
+    "composite": true,
+    "downlevelIteration": true, 
+    "outDir": "./dist",
+    "jsx": "react",
+    "baseUrl": "./src"
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": ["dist", "build", "node_modules"]
+}

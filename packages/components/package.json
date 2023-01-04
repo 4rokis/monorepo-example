@@ -1,0 +1,24 @@
+{
+  "name": "@shared/components",
+  "version": "1.0.0",
+  "description": "`",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier",
+    "lint:fix": "npm run lint--fix",
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx .",
+    "tsc": "tsc",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "storybook": "start-storybook -p 6006 -s ./public",
+    "storybook:build": "build-storybook -s ./public"
+  },
+  "author": "Bogdan Sikora <bogdan@arokis.me>",
+  "devDependencies": {
+    "@shared/tsconfig": "*",
+    "eslint-config-custom": "*",
+    "typescript": "4.6.4"
+  },
+  "dependencies": {
+  }
+}

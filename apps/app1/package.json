@@ -1,0 +1,26 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier",
+    "lint:fix": "npm run lint --fix",
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx .",
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build",
+    "tsc": "tsc"
+  },
+  "author": "Bogdan Sikora <bogdan@arokis.me>",
+  "devDependencies": {
+    "@shared/components": "*",
+    "@shared/tsconfig": "*",
+    "eslint-config-custom": "*",
+    "next-transpile-modules": "9.0.0",
+    "typescript": "4.6.4"
+  },
+  "dependencies": {
+    "@shared/components": "*"
+  }
+}
