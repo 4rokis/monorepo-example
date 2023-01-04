@@ -1,0 +1,11 @@
+{
+  "extends": "@shared/tsconfig/nextjs.json",
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "next-endv.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -18,6 +18,9 @@ export const Navigation: React.FC<Props> = () => {
       <Link native href="/docs">
         Docs
       </Link>
+      <Link native href="/store">
+        Store
+      </Link>
     </nav>
   )
 }

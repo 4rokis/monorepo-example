@@ -1,0 +1,24 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier",
+    "lint:fix": "npm run lint --fix",
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx .",
+    "dev": "next dev -p 3002",
+    "start": "next start -p 3002",
+    "build": "next build",
+    "tsc": "tsc"
+  },
+  "author": "Bogdan Sikora <bogdan@arokis.me>",
+  "devDependencies": {
+    "@shared/components": "*",
+    "@shared/tsconfig": "*",
+    "eslint-config-custom": "*"
+  },
+  "dependencies": {
+    "@shared/components": "*"
+  }
+}
